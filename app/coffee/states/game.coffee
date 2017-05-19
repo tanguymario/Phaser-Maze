@@ -1,5 +1,7 @@
 Phaser = require 'Phaser'
 
+Maze = require '../maze/maze.coffee'
+
 config      = require '../config/config.coffee'
 
 debug       = require '../utils/debug.coffee'
@@ -17,6 +19,7 @@ class Game extends Phaser.State
 
   create: ->
     debug 'Create...', @, 'info', 30, debugThemes.Phaser
+    @maze = new Maze @game, 10, 10
 
 
   toggleFullscreen: ->

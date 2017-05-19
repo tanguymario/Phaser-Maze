@@ -26,6 +26,7 @@
   "homepage": "https://github.com/tanguymario/Phaser-Maze#readme",
   "devDependencies": {
     "assert": "^1.4.1",
+    "bitset.js": "^4.0.0",
     "browserify": "^14.1.0",
     "browserify-shim": "^3.8.13",
     "coffeeify": "^2.1.0",
